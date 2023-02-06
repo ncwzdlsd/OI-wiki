@@ -22,7 +22,7 @@
 -   若代数结构 $(G,\cdot)$ 满足封闭性、结合律性质，则称 $(G,\cdot)$ 为一个 **半群**（semigroup）。
 -   若半群 $(G,\cdot)$ 还满足单位元性质，则称 $(G,\cdot)$ 为一个 **幺半群**（monoid）。
 -   若群 $(G,\cdot)$ 还满足交换律  
-    &#x20;**交换律**（commutativity）：对于 $G$ 中所有的 $a,b$，等式 $a\cdot b=b\cdot a$ 成立。  
+     **交换律**（commutativity）：对于 $G$ 中所有的 $a,b$，等式 $a\cdot b=b\cdot a$ 成立。  
     则称 $(G,\cdot)$ 为一个 **阿贝尔群**（Abelian group），又称 **交换群**（commutative group）。
 
 ## 环
@@ -32,7 +32,7 @@
 1.  $(R,+)$ 构成交换群，其单位元记为 $0$，$R$ 中元素 $a$ 的加法逆元记为 $-a$。
 2.  $(R,\cdot)$ 构成半群。
 3.  **分配律**（distributivity）：对于 $R$ 中所有的 $a,b,c$，等式  
-    &#x20;$a\cdot(b+c)=a\cdot b+a\cdot c$ 和 $(a+b)\cdot c=a\cdot c+b\cdot c$ 成立。
+     $a\cdot(b+c)=a\cdot b+a\cdot c$ 和 $(a+b)\cdot c=a\cdot c+b\cdot c$ 成立。
 
 ??? warning
     在有的定义中，环必须存在乘法单位元；相对地，不存在乘法单位元的则被称为 **伪环**（rng 或 pseudo-ring）。遇到的时候需根据上下文加以判断。
